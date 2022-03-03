@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    color: blue;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.mid , .right {
+    font-size: 12px;
+}
+.mid{
+    margin: 10px 0 0 70px;
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.search-btn{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.btn{
+    font-size: 15px;
+}
+.left{
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+main{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#miniT{
+    margin: 0 360px 30px 360px;
+    text-align: center;
+
+}
+.midBut{
+    align-items: center;
+
+}
+.midImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+.company{
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    height: 100px;
+
+}
+.company img{
+    width: 15%;
+    margin: 0 25px;
+}
+.trading, .finance{
+    display: flex;
+    flex-direction: row;
+    
+    margin: 100px 0 0 0;
+}
+.tradeText{
+    margin-right: 250px;
+}
+.financeText{
+    margin-left: 250px;
+}
+.steps{
+    margin: 100px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carts{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+.create, .bank, .wallet, .inst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.why{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 40px;
+}
+.safety, .fast, .plat, .bonus, .low, .help{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding-right: 0;
+}
+.whytext{
+    width: 800px;
+    margin: 0 350px -60px 0;
+}
+.info{
+    position: absolute;
+    background-color: rgb(18, 18, 126);
+    height: 260px;
+    width: 100%;
+    margin-left: -90px;
+    font-size: 12px;
+    color: white;
+}
+.allinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.comp, .coin, .buy, .contact{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 180px;
+    margin: 20px 50px -150px 0;
+    
+}
+.comp p, .coin p, .buy p, .contact p{
+    padding: 0;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.copy{
+    position: absolute;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(20, 44, 44);
+    margin: 260px 0 0 -90px;
+    color: white;
+}
+.copy p{
+    margin: 15px 0 0 70px;
+}
